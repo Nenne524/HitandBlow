@@ -1,0 +1,614 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		98035C3C29FF55AD007C3D03 /* SerectGameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98035C3B29FF55AD007C3D03 /* SerectGameView.swift */; };
+		98035C3E29FF5B9B007C3D03 /* OmikuziResultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98035C3D29FF5B9B007C3D03 /* OmikuziResultView.swift */; };
+		98035C4029FF5BF5007C3D03 /* OmikuziView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98035C3F29FF5BF5007C3D03 /* OmikuziView.swift */; };
+		98035C4229FF5CE1007C3D03 /* OmikuziImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98035C4129FF5CE1007C3D03 /* OmikuziImageView.swift */; };
+		9807876D29DB19C300B053B8 /* TamaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9807876C29DB19C300B053B8 /* TamaView.swift */; };
+		9807876F29DB1BB300B053B8 /* TamaImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9807876E29DB1BB300B053B8 /* TamaImageView.swift */; };
+		98C1CA1D2A08EB9900C6459F /* TamaAnswerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98C1CA1C2A08EB9900C6459F /* TamaAnswerView.swift */; };
+		98D38AFB2A14AD9300CBA480 /* AnswerandJudge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98D38AFA2A14AD9300CBA480 /* AnswerandJudge.swift */; };
+		98D38AFD2A14BF5100CBA480 /* AnswerDisplayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98D38AFC2A14BF5100CBA480 /* AnswerDisplayView.swift */; };
+		98DB6CD829BCAF320097FB5A /* omikuziApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98DB6CD729BCAF320097FB5A /* omikuziApp.swift */; };
+		98DB6CDC29BCAF340097FB5A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 98DB6CDB29BCAF340097FB5A /* Assets.xcassets */; };
+		98DB6CDF29BCAF340097FB5A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 98DB6CDE29BCAF340097FB5A /* Preview Assets.xcassets */; };
+		98DB6CE929BCAF340097FB5A /* omikuziTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98DB6CE829BCAF340097FB5A /* omikuziTests.swift */; };
+		98DB6CF329BCAF340097FB5A /* omikuziUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98DB6CF229BCAF340097FB5A /* omikuziUITests.swift */; };
+		98DB6CF529BCAF340097FB5A /* omikuziUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98DB6CF429BCAF340097FB5A /* omikuziUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		98DB6CE529BCAF340097FB5A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 98DB6CCC29BCAF320097FB5A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 98DB6CD329BCAF320097FB5A;
+			remoteInfo = omikuzi;
+		};
+		98DB6CEF29BCAF340097FB5A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 98DB6CCC29BCAF320097FB5A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 98DB6CD329BCAF320097FB5A;
+			remoteInfo = omikuzi;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		98035C3B29FF55AD007C3D03 /* SerectGameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SerectGameView.swift; sourceTree = "<group>"; };
+		98035C3D29FF5B9B007C3D03 /* OmikuziResultView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OmikuziResultView.swift; sourceTree = "<group>"; };
+		98035C3F29FF5BF5007C3D03 /* OmikuziView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OmikuziView.swift; sourceTree = "<group>"; };
+		98035C4129FF5CE1007C3D03 /* OmikuziImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OmikuziImageView.swift; sourceTree = "<group>"; };
+		9807876C29DB19C300B053B8 /* TamaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TamaView.swift; sourceTree = "<group>"; };
+		9807876E29DB1BB300B053B8 /* TamaImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TamaImageView.swift; sourceTree = "<group>"; };
+		98C1CA1C2A08EB9900C6459F /* TamaAnswerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TamaAnswerView.swift; sourceTree = "<group>"; };
+		98D38AFA2A14AD9300CBA480 /* AnswerandJudge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnswerandJudge.swift; sourceTree = "<group>"; };
+		98D38AFC2A14BF5100CBA480 /* AnswerDisplayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnswerDisplayView.swift; sourceTree = "<group>"; };
+		98DB6CD429BCAF320097FB5A /* omikuzi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = omikuzi.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		98DB6CD729BCAF320097FB5A /* omikuziApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = omikuziApp.swift; sourceTree = "<group>"; };
+		98DB6CDB29BCAF340097FB5A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		98DB6CDE29BCAF340097FB5A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		98DB6CE429BCAF340097FB5A /* omikuziTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = omikuziTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		98DB6CE829BCAF340097FB5A /* omikuziTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = omikuziTests.swift; sourceTree = "<group>"; };
+		98DB6CEE29BCAF340097FB5A /* omikuziUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = omikuziUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		98DB6CF229BCAF340097FB5A /* omikuziUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = omikuziUITests.swift; sourceTree = "<group>"; };
+		98DB6CF429BCAF340097FB5A /* omikuziUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = omikuziUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		98DB6CD129BCAF320097FB5A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98DB6CE129BCAF340097FB5A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98DB6CEB29BCAF340097FB5A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		98DB6CCB29BCAF320097FB5A = {
+			isa = PBXGroup;
+			children = (
+				98DB6CD629BCAF320097FB5A /* omikuzi */,
+				98DB6CE729BCAF340097FB5A /* omikuziTests */,
+				98DB6CF129BCAF340097FB5A /* omikuziUITests */,
+				98DB6CD529BCAF320097FB5A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		98DB6CD529BCAF320097FB5A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				98DB6CD429BCAF320097FB5A /* omikuzi.app */,
+				98DB6CE429BCAF340097FB5A /* omikuziTests.xctest */,
+				98DB6CEE29BCAF340097FB5A /* omikuziUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		98DB6CD629BCAF320097FB5A /* omikuzi */ = {
+			isa = PBXGroup;
+			children = (
+				98DB6CD729BCAF320097FB5A /* omikuziApp.swift */,
+				98035C3B29FF55AD007C3D03 /* SerectGameView.swift */,
+				98035C3F29FF5BF5007C3D03 /* OmikuziView.swift */,
+				98035C3D29FF5B9B007C3D03 /* OmikuziResultView.swift */,
+				98035C4129FF5CE1007C3D03 /* OmikuziImageView.swift */,
+				9807876C29DB19C300B053B8 /* TamaView.swift */,
+				9807876E29DB1BB300B053B8 /* TamaImageView.swift */,
+				98C1CA1C2A08EB9900C6459F /* TamaAnswerView.swift */,
+				98D38AFA2A14AD9300CBA480 /* AnswerandJudge.swift */,
+				98D38AFC2A14BF5100CBA480 /* AnswerDisplayView.swift */,
+				98DB6CDB29BCAF340097FB5A /* Assets.xcassets */,
+				98DB6CDD29BCAF340097FB5A /* Preview Content */,
+			);
+			path = omikuzi;
+			sourceTree = "<group>";
+		};
+		98DB6CDD29BCAF340097FB5A /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				98DB6CDE29BCAF340097FB5A /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		98DB6CE729BCAF340097FB5A /* omikuziTests */ = {
+			isa = PBXGroup;
+			children = (
+				98DB6CE829BCAF340097FB5A /* omikuziTests.swift */,
+			);
+			path = omikuziTests;
+			sourceTree = "<group>";
+		};
+		98DB6CF129BCAF340097FB5A /* omikuziUITests */ = {
+			isa = PBXGroup;
+			children = (
+				98DB6CF229BCAF340097FB5A /* omikuziUITests.swift */,
+				98DB6CF429BCAF340097FB5A /* omikuziUITestsLaunchTests.swift */,
+			);
+			path = omikuziUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		98DB6CD329BCAF320097FB5A /* omikuzi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 98DB6CF829BCAF340097FB5A /* Build configuration list for PBXNativeTarget "omikuzi" */;
+			buildPhases = (
+				98DB6CD029BCAF320097FB5A /* Sources */,
+				98DB6CD129BCAF320097FB5A /* Frameworks */,
+				98DB6CD229BCAF320097FB5A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = omikuzi;
+			productName = omikuzi;
+			productReference = 98DB6CD429BCAF320097FB5A /* omikuzi.app */;
+			productType = "com.apple.product-type.application";
+		};
+		98DB6CE329BCAF340097FB5A /* omikuziTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 98DB6CFB29BCAF340097FB5A /* Build configuration list for PBXNativeTarget "omikuziTests" */;
+			buildPhases = (
+				98DB6CE029BCAF340097FB5A /* Sources */,
+				98DB6CE129BCAF340097FB5A /* Frameworks */,
+				98DB6CE229BCAF340097FB5A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				98DB6CE629BCAF340097FB5A /* PBXTargetDependency */,
+			);
+			name = omikuziTests;
+			productName = omikuziTests;
+			productReference = 98DB6CE429BCAF340097FB5A /* omikuziTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		98DB6CED29BCAF340097FB5A /* omikuziUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 98DB6CFE29BCAF340097FB5A /* Build configuration list for PBXNativeTarget "omikuziUITests" */;
+			buildPhases = (
+				98DB6CEA29BCAF340097FB5A /* Sources */,
+				98DB6CEB29BCAF340097FB5A /* Frameworks */,
+				98DB6CEC29BCAF340097FB5A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				98DB6CF029BCAF340097FB5A /* PBXTargetDependency */,
+			);
+			name = omikuziUITests;
+			productName = omikuziUITests;
+			productReference = 98DB6CEE29BCAF340097FB5A /* omikuziUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		98DB6CCC29BCAF320097FB5A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					98DB6CD329BCAF320097FB5A = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					98DB6CE329BCAF340097FB5A = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 98DB6CD329BCAF320097FB5A;
+					};
+					98DB6CED29BCAF340097FB5A = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 98DB6CD329BCAF320097FB5A;
+					};
+				};
+			};
+			buildConfigurationList = 98DB6CCF29BCAF320097FB5A /* Build configuration list for PBXProject "omikuzi" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 98DB6CCB29BCAF320097FB5A;
+			productRefGroup = 98DB6CD529BCAF320097FB5A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				98DB6CD329BCAF320097FB5A /* omikuzi */,
+				98DB6CE329BCAF340097FB5A /* omikuziTests */,
+				98DB6CED29BCAF340097FB5A /* omikuziUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		98DB6CD229BCAF320097FB5A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98DB6CDF29BCAF340097FB5A /* Preview Assets.xcassets in Resources */,
+				98DB6CDC29BCAF340097FB5A /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98DB6CE229BCAF340097FB5A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98DB6CEC29BCAF340097FB5A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		98DB6CD029BCAF320097FB5A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98DB6CD829BCAF320097FB5A /* omikuziApp.swift in Sources */,
+				98035C3E29FF5B9B007C3D03 /* OmikuziResultView.swift in Sources */,
+				98C1CA1D2A08EB9900C6459F /* TamaAnswerView.swift in Sources */,
+				98D38AFD2A14BF5100CBA480 /* AnswerDisplayView.swift in Sources */,
+				9807876D29DB19C300B053B8 /* TamaView.swift in Sources */,
+				98035C3C29FF55AD007C3D03 /* SerectGameView.swift in Sources */,
+				9807876F29DB1BB300B053B8 /* TamaImageView.swift in Sources */,
+				98D38AFB2A14AD9300CBA480 /* AnswerandJudge.swift in Sources */,
+				98035C4029FF5BF5007C3D03 /* OmikuziView.swift in Sources */,
+				98035C4229FF5CE1007C3D03 /* OmikuziImageView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98DB6CE029BCAF340097FB5A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98DB6CE929BCAF340097FB5A /* omikuziTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98DB6CEA29BCAF340097FB5A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98DB6CF329BCAF340097FB5A /* omikuziUITests.swift in Sources */,
+				98DB6CF529BCAF340097FB5A /* omikuziUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		98DB6CE629BCAF340097FB5A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 98DB6CD329BCAF320097FB5A /* omikuzi */;
+			targetProxy = 98DB6CE529BCAF340097FB5A /* PBXContainerItemProxy */;
+		};
+		98DB6CF029BCAF340097FB5A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 98DB6CD329BCAF320097FB5A /* omikuzi */;
+			targetProxy = 98DB6CEF29BCAF340097FB5A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		98DB6CF629BCAF340097FB5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		98DB6CF729BCAF340097FB5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		98DB6CF929BCAF340097FB5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"omikuzi/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = pon.omikuzi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		98DB6CFA29BCAF340097FB5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"omikuzi/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = pon.omikuzi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		98DB6CFC29BCAF340097FB5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = pon.omikuziTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/omikuzi.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/omikuzi";
+			};
+			name = Debug;
+		};
+		98DB6CFD29BCAF340097FB5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = pon.omikuziTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/omikuzi.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/omikuzi";
+			};
+			name = Release;
+		};
+		98DB6CFF29BCAF340097FB5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = pon.omikuziUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = omikuzi;
+			};
+			name = Debug;
+		};
+		98DB6D0029BCAF340097FB5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = pon.omikuziUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = omikuzi;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		98DB6CCF29BCAF320097FB5A /* Build configuration list for PBXProject "omikuzi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				98DB6CF629BCAF340097FB5A /* Debug */,
+				98DB6CF729BCAF340097FB5A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		98DB6CF829BCAF340097FB5A /* Build configuration list for PBXNativeTarget "omikuzi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				98DB6CF929BCAF340097FB5A /* Debug */,
+				98DB6CFA29BCAF340097FB5A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		98DB6CFB29BCAF340097FB5A /* Build configuration list for PBXNativeTarget "omikuziTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				98DB6CFC29BCAF340097FB5A /* Debug */,
+				98DB6CFD29BCAF340097FB5A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		98DB6CFE29BCAF340097FB5A /* Build configuration list for PBXNativeTarget "omikuziUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				98DB6CFF29BCAF340097FB5A /* Debug */,
+				98DB6D0029BCAF340097FB5A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 98DB6CCC29BCAF320097FB5A /* Project object */;
+}
