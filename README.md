@@ -1,0 +1,2 @@
+# HitandBlow
+おみくじとhit&blowができるアプリ
